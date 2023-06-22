@@ -1,3 +1,11 @@
+## Branch Information
+
+This repository has several branches, each demonstrating a different setup configuration.
+
+- [With Public and Private Subnets, Bastion Host and NAT Gateway](https://github.com/0xbochi/aws-ha-load-balancers-with-ec2/tree/with-public-subnets): This branch provides a setup where EC2 instances are deployed in private subnets. A bastion host is used for secure SSH access to these private instances, and a NAT gateway is configured for secure outbound internet access. All the incoming traffic is routed through an Application Load Balancer (ALB) residing in the public subnet.
+
+Stay tuned as more branches with different setup configurations are added. For more information, refer to the specific README.md of each branch.
+
 # Terraform AWS Project with Python Script
 
 This project demonstrates how to automate the creation and configuration of AWS resources using Terraform and Python scripts. The aim is to setup a scalable and secure web service. The infrastructure includes an AWS VPC with subnets, security groups, an auto-scaling group with EC2 instances, and an application load balancer. 
